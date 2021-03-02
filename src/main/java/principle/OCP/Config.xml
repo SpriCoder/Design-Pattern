@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<buttons>
+    <button>
+        <className>CircleButton</className>
+        <message>"I am the Attribution of CircleButton"</message>
+    </button>
+    <button>
+        <className>RectangleButton</className>
+        <message>"I am the Attribution of RectangleButton"</message>
+    </button>
+</buttons>
