@@ -6,7 +6,7 @@ package principle.DIP;
  * @Version 1.0
  **/
 
-public class MainClass {
+public class DIPMain {
     private AbstractSource abstractSource;
     private AbstractTransformer abstractTransformer;
     public static void main(String[] args) {

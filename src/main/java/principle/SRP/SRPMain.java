@@ -7,7 +7,7 @@ package principle.SRP;
  * @Version 1.0
  **/
 
-public class MainClass {
+public class SRPMain {
     public static void main(String[] args) {
         LoginForm loginForm = new LoginForm();
         loginForm.init();

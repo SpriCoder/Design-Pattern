@@ -6,7 +6,7 @@ package principle.CRP;
  * @Version 1.0
  **/
 
-public class MainClass {
+public class CRPMain {
     public static void main(String[] args) {
         DBUtil dbUtil = new NewDBUtil();
         StudentDAO studentDAO = new StudentDAO();
