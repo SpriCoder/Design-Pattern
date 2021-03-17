@@ -1,4 +1,4 @@
-package pattern.factory.factory;
+package pattern.factory.factory.frame;
 
 /**
  * @Author stormbroken

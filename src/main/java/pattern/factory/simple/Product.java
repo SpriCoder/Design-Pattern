@@ -8,4 +8,16 @@ package pattern.factory.simple;
 
 public abstract class Product {
     public abstract void produce();
+
+    public static Product factoryMethod(String arg){
+        switch (arg){
+            case "ConcreteProductA":
+                return new ConcreteProductA();
+            case "ConcreteProductB":
+                return new ConcreteProductB();
+            default:
+                break;
+        }
+        return null;
+    }
 }
