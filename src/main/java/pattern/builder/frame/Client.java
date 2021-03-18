@@ -6,7 +6,7 @@ package pattern.builder.frame;
  * @Version 1.0
  **/
 
-public class BuilderMain {
+public class Client {
     public static void main(String[] args) {
         Builder builder = new ConcreteBuilder();
         Director director = new Director(builder);

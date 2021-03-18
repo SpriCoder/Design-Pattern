@@ -6,7 +6,7 @@ package pattern.factory.factory.frame;
  * @Version 1.0
  **/
 
-public class FactoryMain {
+public class Client {
     public static void main(String[] args) {
         Factory factory = new ConcreteFactory();
         Product product = factory.factoryMethod();

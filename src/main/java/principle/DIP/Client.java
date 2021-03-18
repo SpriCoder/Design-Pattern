@@ -6,7 +6,7 @@ package principle.DIP;
  * @Version 1.0
  **/
 
-public class DIPMain {
+public class Client {
     private AbstractSource abstractSource;
     private AbstractTransformer abstractTransformer;
     public static void main(String[] args) {

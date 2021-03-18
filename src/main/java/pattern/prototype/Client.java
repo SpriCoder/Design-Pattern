@@ -6,7 +6,7 @@ package pattern.prototype;
  * @Version 1.0
  **/
 
-public class EmailMain {
+public class Client {
     public static void main(String[] args){
         Attachment attachment = new Attachment();
         attachment.setContent("I am Content");

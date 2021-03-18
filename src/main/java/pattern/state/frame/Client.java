@@ -6,7 +6,7 @@ package pattern.state.frame;
  * @Version 1.0
  **/
 
-public class StateMain {
+public class Client {
     public static void main(String[] args) {
         Context context = new Context();
         State state1 = new ConcreteStateA();

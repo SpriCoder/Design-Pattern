@@ -6,7 +6,7 @@ package pattern.factory.simple;
  * @Version 1.0
  **/
 
-public class MyFactory {
+public class Client {
     public static Product factoryMethod(String arg){
         switch (arg){
             case "ConcreteProductA":
@@ -21,10 +21,10 @@ public class MyFactory {
 
     public static void main(String[] args) {
         // 标准的简单工厂
-        Product product1 = MyFactory.factoryMethod("ConcreteProductA");
+        Product product1 = Client.factoryMethod("ConcreteProductA");
         assert product1 != null;
         product1.produce();
-        Product product2 = MyFactory.factoryMethod("ConcreteProductB");
+        Product product2 = Client.factoryMethod("ConcreteProductB");
         assert product2 != null;
         product2.produce();
 

@@ -6,7 +6,7 @@ package principle.ISP;
  * @Version 1.0
  **/
 
-public class ISPMain {
+public class Client {
     public static void main(String[] args) {
         AbstractServiceA abstractServiceA = new ClientA();
         abstractServiceA.operatorA();

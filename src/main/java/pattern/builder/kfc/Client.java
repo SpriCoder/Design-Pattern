@@ -6,7 +6,7 @@ package pattern.builder.kfc;
  * @Version 1.0
  **/
 
-public class KFCMain {
+public class Client {
     public static void main(String[] args) {
         KFCWaiter waiter1 = new KFCWaiter();
         waiter1.setMealBuilder(new SubMealBuilderA());

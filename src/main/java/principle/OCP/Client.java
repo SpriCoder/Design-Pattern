@@ -14,7 +14,7 @@ import java.io.File;
  * @Version 1.0
  **/
 
-public class OCPMain {
+public class Client {
     public static void main(String[] args) {
         String prefix = "src/main/java/principle/ocp/";
         try{

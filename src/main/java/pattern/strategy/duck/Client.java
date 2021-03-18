@@ -6,7 +6,7 @@ package pattern.strategy.duck;
  * @Version 1.0
  **/
 
-public class MiniDuckSimulator {
+public class Client {
     public static void performAll(Duck duck){
         duck.performFly();
         duck.performQuack();

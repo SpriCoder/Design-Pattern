@@ -6,7 +6,7 @@ package pattern.state.hotel;
  * @Version 1.0
  **/
 
-public class hotelMain {
+public class Client {
     public static void main(String[] args) {
         Room room = new Room();
         room.reserve();
