@@ -1,7 +1,5 @@
 package pattern.prototype;
 
-import sun.applet.Main;
-
 /**
  * @Author stormbroken
  * Create by 2021/03/17
